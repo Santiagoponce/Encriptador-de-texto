@@ -1,0 +1,253 @@
+body
+{
+width:1440px;
+height:1024px;
+background: #F3F5FC;
+margin:0 auto;
+position: relative;
+}
+
+.headerImage
+{   position: absolute;
+    top:3.91%;
+    left:5.843%;
+    height: 4.6875%;
+    width:2.159%;
+}
+.inputBox
+{
+    position: absolute;
+    top:16.40%;
+    left:16.67%;
+    resize: none;
+    border: none;
+    width:47.22%;
+    height:28.125%;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    background: none;
+    
+    color: #0A3871;
+
+}
+
+
+
+.warningSection
+{
+    position: absolute;
+    width:15.9%;
+    height: 1.76%;
+    left: 16.66%;
+    top: 83.10%;
+    transition: 2s;
+
+}
+
+.warningSectionEmphasize
+{
+    transform: scale(1.25);
+    
+}
+
+.warningSection #warningImg
+{
+    display: inline-block;
+    height: 88.8%;
+}
+
+.inputWarning
+{
+    position: absolute;
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-left: 3.47%;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.inputWarningEmphasize
+{
+    position: absolute;
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-left: 3.47%;
+
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    color: crimson;
+    opacity: 0.8;
+
+}
+
+
+.inputBox::placeholder
+{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+}
+
+.inputBarButton
+{
+    position: absolute;
+    width:47.22%;
+    height:6.54%;
+    top:86.43%;
+    left:16.66%;
+}
+#encryptButton:hover, #decryptButtton:hover
+{
+    transform: scale(1.05);
+}
+
+
+#decryptButtton
+{
+    width:48.23%;
+    height: 100%;
+    background: #D8DFE8;
+    color: #0A3871;
+    border-radius: 24px;
+    font-size: 19px;
+    border-color: #0A3871;
+    transition:2s;
+
+}
+
+#encryptButton
+{
+    width:48.23%;
+    height: 100%;
+    margin-right: 3%;
+    background: #0A3871;
+    color: #D8DFE8;
+    border-radius: 24px;
+    font-size: 19px;
+    transition:2s;
+
+
+}
+
+.outputBox
+{ 
+    position:absolute;
+    height:92.19%;
+    width:27.78%;
+    top:3.90%;
+    right:2.78%;
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+}
+.standbyScreen
+{
+    display: inline;
+}
+
+.activeScreen
+{
+    display: none;
+}
+.activeScreenText
+{
+    position: absolute;
+    top:3.39%;
+    left:8%;
+
+
+    height: 82.73%;
+    width: 84%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
+
+.searchImag
+{
+    position:absolute;
+    width:84%;
+    height:32.20%;
+    top:25.74%;
+    left:8%;
+    background: white;
+
+
+}
+.outputBoxTitle
+{
+    position:absolute;
+    right:8%;
+    top:61.33%;
+    width: 84%;
+    height: 6.14%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+
+}
+
+.outputBoxmsg
+{
+    position:absolute;
+    color: #495057;
+    width: 84%;
+    height: 5.085%;
+    top:69.17%;
+    right:8%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+}
+
+.copyButton
+{
+    position: absolute;
+    bottom: 3.389%;
+    left:8%;
+    height:7.097%;
+    width: 84%;
+    background: #D8DFE8;
+    color: #0A3871;
+    border-radius: 24px;
+    font-size: 19px;
+    border-color: #0A3871;
+    transition:2s;
+}
+
+.hide{
+    display: none;
+}
+
+.show
+{
+   display: inline;
+}
